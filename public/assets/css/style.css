@@ -1,0 +1,46 @@
+.sidebar[data-color="purple"] li > a.active {
+  background-color: #9c27b0;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(156, 39, 176, 0.4);
+}
+
+.sidebar[data-color="azure"] li > a.active {
+  background-color: #00bcd4;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.sidebar[data-color="green"] li > a.active {
+  background-color: #4caf50;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(76, 175, 80, 0.4);
+}
+
+.sidebar[data-color="orange"] li > a.active {
+  background-color: #ff9800;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(255, 152, 0, 0.4);
+}
+
+.sidebar[data-color="danger"] li > a.active {
+  background-color: #f44336;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(244, 67, 54, 0.4);
+}
+
+.sidebar[data-color="rose"] li > a.active {
+  background-color: #e91e63;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(233, 30, 99, 0.4);
+}
+
+.sidebar[data-color="white"] li > a.active {
+  background-color: #fff;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(255, 255, 255, 0.4);
+}
+
+.sidebar .nav li > a.active,
+.sidebar .nav li > a.active i {
+  color: #fff;
+}
